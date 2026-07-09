@@ -2,7 +2,7 @@
 
 > 法官不发微博，不开播客，不接受"人生访谈"。他/她唯一持续、公开、可信的自我表达，是判决书里的说理段落，和期刊上的署名文章。
 
-法相Skill是一个可被AI大模型加载的自定义Skill：输入一位中国法官（在任或退休）的姓名与任职法院信息，自动完成学术论文、裁判文书说理、案例评析、学术会议发言等多源调研，提炼其**法律方法论**，最终生成一个可运行、可交互的"法官视角"Skill。
+该项目是一个可被AI大模型加载的自定义Skill：输入一位中国法官（在任或退休）的姓名与任职法院信息，自动完成学术论文、裁判文书说理、案例评析、学术会议发言等多源调研，提炼其**法律方法论**，最终生成一个可运行、可交互的"法官视角"Skill。
 
 ---
 
@@ -55,7 +55,7 @@
 ```bash
 # 在你的项目根目录下
 mkdir -p .claude/skills
-git clone <本仓库地址> /tmp/faguan-fangfalun-repo
+git clone https://github.com/HsuanZhao/faxiang-skill /tmp/faguan-fangfalun-repo
 cp -r /tmp/faguan-fangfalun-repo/faguan-fangfalun .claude/skills/
 ```
 
@@ -63,7 +63,7 @@ cp -r /tmp/faguan-fangfalun-repo/faguan-fangfalun .claude/skills/
 
 ```bash
 mkdir -p ~/.claude/skills
-git clone <本仓库地址> /tmp/faguan-fangfalun-repo
+git clone https://github.com/HsuanZhao/faxiang-skill /tmp/faguan-fangfalun-repo
 cp -r /tmp/faguan-fangfalun-repo/faguan-fangfalun ~/.claude/skills/
 ```
 
