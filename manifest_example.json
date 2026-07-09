@@ -1,0 +1,43 @@
+{
+  "_说明": "每份手动下载的裁判文书对应一条记录。filename对应raw/或verified/目录下的实际文件名。只有verified_by_human=true且is_final_effective=true的条目才会被Agent 2读取用于分析裁判说理风格。",
+  "records": [
+    {
+      "filename": "(2021)京01民终1234号.pdf",
+      "doc_number": "(2021)京01民终1234号",
+      "court": "北京市第一中级人民法院",
+      "judge_name": "张三",
+      "role_in_case": "审判长",
+      "case_type": "民事二审",
+      "year": 2021,
+      "is_final_effective": true,
+      "verified_by_human": true,
+      "verified_by": "本人手动核实",
+      "verified_at": "2026-07-09",
+      "sensitive_content_check": "已核对，无未成年人/隐私/涉密内容",
+      "notes": ""
+    },
+    {
+      "filename": "(2019)粤03民终89号.pdf",
+      "doc_number": "(2019)粤03民终89号",
+      "court": "深圳市中级人民法院",
+      "judge_name": "张三",
+      "role_in_case": "合议庭成员（非主审）",
+      "case_type": "民事二审",
+      "year": 2019,
+      "is_final_effective": true,
+      "verified_by_human": true,
+      "verified_by": "本人手动核实",
+      "verified_at": "2026-07-09",
+      "sensitive_content_check": "已核对",
+      "notes": "非主审法官，说理权重应降低采纳，仅作参考"
+    }
+  ],
+  "excluded": [
+    {
+      "filename": "(2018)苏01民终45号.pdf",
+      "doc_number": "(2018)苏01民终45号",
+      "reason": "未能确认是否为终审生效文书，暂不采纳",
+      "excluded_at": "2026-07-09"
+    }
+  ]
+}
